@@ -27,7 +27,8 @@ public class SwaggerConfig {
 						.name("Adriana Gioielli")
 						.url("https://github.com/adrianagioielli/")
 						.email("adrianalves.cp@gmail.com")))
-				.externalDocs(new ExternalDocumentation().description("GitHub").url("http://github.com/conteudoGeneration"));
+				.externalDocs(new ExternalDocumentation().description("GitHub")
+						.url("http://github.com/conteudoGeneration"));
 	}
 	
 	private ApiResponse createApiResponse(String message) {
